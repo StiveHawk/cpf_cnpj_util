@@ -1,7 +1,9 @@
 # Utilidades de CPF e CNPJ
-## Classes disponíveis:
 
-- CPF
+## CPF
+
+[Visualize a classe](https://github.com/StiveHawk/cpf_cnpj_util/blob/master/CPF_CNPJ/CPF.cs)
+
 Usando Parse:
 ```
 var cpf = CPF.Parse("00000000000")
@@ -17,7 +19,10 @@ if(CPF.TryParse("00000000000", out cpf))
 	// Código com CPF válido
 ```
 
-- CNPJ
+## CNPJ
+
+[Visualize a classe](https://github.com/StiveHawk/cpf_cnpj_util/blob/master/CPF_CNPJ/CNPJ.cs)
+
 Usando Parse:
 ```
 var cnpj = CNPJ.Parse("00000000000000")
@@ -33,8 +38,10 @@ if(CNPJ.TryParse("00000000000000", out cnpj))
 	// Código com CNPJ válido
 ```
 
-- CPF + CNPJ
-Para situações em que não importa se o documento for CPF ou CNPJ, desde seja válido.
+## CPF + CNPJ
+Para situações em que não importa se o documento for CPF ou CNPJ, desde seja válido. É necessário incluir as classes CPF e CNPJ no projeto.
+
+[Visualize a classe](https://github.com/StiveHawk/cpf_cnpj_util/blob/master/CPF_CNPJ/CPF_CNPJ.cs)
 
 Usando Parse:
 ```
